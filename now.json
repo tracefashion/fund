@@ -1,0 +1,12 @@
+{
+  "name": "fund",
+  "alias": ["fund.tracefashion.co"],
+  "version": 2,
+  "routes": [
+    {
+      "src": "/.*",
+      "status": 302,
+      "headers": { "Location": "https://www.kickstarter.com/projects/575782984/worlds-most-comfortable-blazer-the-kimono-blazer?ref=1g7ran" }
+    }
+  ]
+}
